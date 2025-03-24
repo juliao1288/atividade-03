@@ -1,11 +1,15 @@
-programa
-{
-	
-	funcao inicio()
-	{
-		escreva("Olá Mundo")
-	}
+programa {
+  funcao inicio() {
+    real  n1, n2, r 
+    escreva("digite primeiro número: ")
+    leia(n1)
+    escreva("digite o segundo número: ")
+    leia(n2)
+    r = n1 - n2
+    escreva("O resultado é igual a ", r)
+  }
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
