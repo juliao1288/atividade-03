@@ -1,11 +1,17 @@
-programa
-{
-	
-	funcao inicio()
-	{
-		escreva("Olá Mundo")
-	}
+programa {
+  funcao inicio() {
+    real n1, n2, resultado
+    escreva("Calculadora de soma")
+    escreva("\n escreva o primeiro numero: ")
+    leia (n1)
+    escreva("escreva o segundo número:")
+    leia(n2)
+
+    resultado = n1 + n2 
+    escreva("o resultado da sua soma é: " , resultado)
+  }
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
