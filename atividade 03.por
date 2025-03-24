@@ -1,10 +1,14 @@
-programa
-{
-	
-	funcao inicio()
-	{
-		escreva("Olá Mundo")
-	}
+programa {
+  funcao inicio() {
+    real n1, n2, resultado
+    escreva("Insira o primeiro número:")
+    leia(n1)
+    escreva("\n Insira o segundo número:")
+    leia(n2)
+    resultado=n1/n2 
+    escreva("Sua divisão é:",resultado)
+    
+  }
 }
 /* $$$ Portugol Studio $$$ 
  * 
