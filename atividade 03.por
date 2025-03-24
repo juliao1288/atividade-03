@@ -1,10 +1,14 @@
-programa
-{
-	
-	funcao inicio()
-	{
-		escreva("Olá Mundo")
-	}
+programa {
+  funcao inicio() {
+   real area, base, altura
+   escreva("Informe a base do retângulo:")
+   leia(base)
+   escreva("\nInforme a altura:")
+   leia(altura)
+   area = base*altura
+   escreva("\nA sua área é de:" + area)
+
+  }
 }
 /* $$$ Portugol Studio $$$ 
  * 
