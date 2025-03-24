@@ -1,14 +1,16 @@
 programa {
   funcao inicio() {
-    real n1, n2, resultado
-    escreva("Calculadora de soma")
-    escreva("\n escreva o primeiro numero: ")
-    leia (n1)
-    escreva("escreva o segundo número:")
+    real n1, n2, resultado 
+    escreva("Insira o primeiro número:")
+    leia(n1)
+    escreva("\n Insira o segundo número:")
     leia(n2)
-
+    resultado=n1/n2 
+    escreva("Sua divisão é:",resultado)
     resultado = n1 + n2 
     escreva("o resultado da sua soma é: " , resultado)
+  }
+    
   }
 }
 
