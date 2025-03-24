@@ -2,7 +2,8 @@ programa {
   funcao inicio() {
 
 
-    real n1, n2, resultado, media
+
+    real n1, n2, resultado, media, area
     escreva("Insira o primeiro número:")
     leia(n1)
     escreva("\n Insira o segundo número:")
@@ -15,6 +16,9 @@ programa {
     escreva("A sua média é :" , media)
     resultado = n1 * n2
     escreva("o resultado da multiplicação é: ", resultado)
+    area = n1*n2
+    escreva("\nA sua área é de:" ,area)
+
   }
     
   }
