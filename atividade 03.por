@@ -1,11 +1,19 @@
-programa
-{
-	
-	funcao inicio()
-	{
-		escreva("Olá Mundo")
-	}
+programa {
+  funcao inicio() {
+    real n1,n2, resultado
+    escreva("")
+    escreva("digite o primeiero número:")
+    leia(n1)
+    escreva("digite o segundo número:")
+    leia(n2)
+
+    resultado = n1 * n2
+
+    escreva("o resultado da multiplicação é: ", resultado)
+
+  }
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
