@@ -3,6 +3,7 @@ programa {
 
 
 
+
     real n1, n2, resultado, media, area
     escreva("Insira o primeiro número:")
     leia(n1)
@@ -18,11 +19,14 @@ programa {
     escreva("o resultado da multiplicação é: ", resultado)
     area = n1*n2
     escreva("\nA sua área é de:" ,area)
+    resultado = (n1 * n2) / 2
+    escreva("a área do triângulo é igual a ", resultado)
 
   }
     
   }
 }
+
 
 
 /* $$$ Portugol Studio $$$ 
