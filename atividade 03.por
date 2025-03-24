@@ -1,10 +1,16 @@
-programa
-{
-	
-	funcao inicio()
-	{
-		escreva("Olá Mundo")
-	}
+programa {
+  funcao inicio() {
+    real n1, n2 , media 
+    escreva("Calculo media")
+    escreva("digite sua primeira nota:")
+    leia(n1)
+    escreva("digite sua segunda nota:")
+    leia(n2)
+
+    media = (n1 + n2) /2
+
+    escreva("A sua média é :" , media)
+  }
 }
 /* $$$ Portugol Studio $$$ 
  * 
