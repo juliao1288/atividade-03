@@ -2,24 +2,24 @@ programa {
   funcao inicio() {
 
     real n1, n2, resultado, media, area
-    escreva("Insira o primeiro número:")
+    escreva(" Insira o primeiro número: ")
     leia(n1)
-    escreva("\n Insira o segundo número:")
+    escreva(" Insira o segundo número: ")
     leia(n2)
     resultado=n1/n2 
-    escreva("Sua divisão é:",resultado)
+    escreva("\n Sua divisão é ",resultado)
     resultado = n1 + n2 
-    escreva("o resultado da sua soma é: " , resultado)
+    escreva("\n O resultado da sua soma é " , resultado)
     media = (n1 + n2) /2
-    escreva("A sua média é :" , media)
+    escreva("\n A sua média é " , media)
     resultado = n1 * n2
-    escreva("o resultado da multiplicação é: ", resultado)
+    escreva("\n O resultado da multiplicação é ", resultado)
     area = n1*n2
-    escreva("\nA sua área é de:" ,area)
+    escreva("\n A área do retângulo é de " ,area)
     resultado = (n1 * n2) / 2
-    escreva("a área do triângulo é igual a ", resultado)
+    escreva("\n A área do triângulo é igual a ", resultado)
     resultado = n1 - n2
-    escreva("O resultado é igual a ", resultado)
+    escreva("\n O resultado da subtração é igual a ", resultado)
 
   }
     
